@@ -1,5 +1,26 @@
-p{
-  color:red;
+/*8ecae6*/
+/*219ebc*/
+/*023047*/
+/*ffb703*/
+/*fb8500*/
+/*
+
+*/
+.container{
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  max-width: 960px;
+  max-height: 500px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
 }
 .red{
   background-color: red;
