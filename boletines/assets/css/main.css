@@ -6,6 +6,28 @@
 /*
 
 */
+.fa-star{
+  color:#ffc400;
+}
+a{
+  text-decoration: none;
+  color: #d500f9;
+}
+.table{
+  width: 100%;
+  border-spacing: 0;
+
+}
+.title{
+  text-transform: uppercase;
+}
+.parrafo{
+  line-height: 1.6em;
+  font-weight: 600;
+}
+html{
+  font-family: 'Nunito', sans-serif;
+}
 .container{
   background: #ee9ca7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
@@ -32,6 +54,12 @@
   height: 200px;
   width: 100px;
 }
-td{
-  border:solid 1px;
+.table td, .table th{
+  border:solid 0px;
+  padding: 1em;
+  text-align: left;
+}
+.table tr:nth-child(even){
+  background-color: #f3e5f5;
+
 }
